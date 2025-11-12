@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI';
+  background-color: #fdf6f0; 
+  color: #333;
+  padding-top: 70px; 
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0 6vw;
+  display: flex;
+  align-items: center;
+  background-color: #e98181;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* ligera sombra */
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #f71f6a;
+  border-radius: 5px;
+}
+
+#carrito {
+  margin-left: auto;
+}
+
+#carrito a {
+  font-size: 1.5em;
+}
+
+div, p, img {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #e98181;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+p {
+  font-size: 1.1em;
+  text-align: justify;
+  color: #555;
+  margin-bottom: 15px;
+  
+}
+
+p a {
+  color: #e98181;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+p a:hover {
+  color: #f71f6a;
+}
+
+
+form {
+  max-width: 600px;           
+  margin: 40px auto;          
+  padding: 30px;              
+  background-color: #fff;     
+  border-radius: 12px;        
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI';
+}
+
+form h1, form h2 {
+  text-align: center;
+  color: #e98181;
+  margin-bottom: 20px;
+}
+
+form h2 {
+  font-size: 1.5em;
+}
+
+form p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+  font-size: 1em;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #e98181;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #f71f6a;
+}
+
+
+
