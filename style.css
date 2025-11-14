@@ -39,6 +39,7 @@ body {
 .navbar a:hover {
   color: #9f1344;
 }
+
 /* Icono del carrito */
 #carrito {
   margin-left: auto;
@@ -264,6 +265,13 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #f71f6a;
 }
-
-
+.gif-background-container {
+    /* Caracteristicas del gif */
+    background-image: url('imgs/cat.gif'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 90px; 
+    width: 90px;
+}
 
