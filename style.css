@@ -1,16 +1,18 @@
-  *{
+
+/* Esto es para que el flex tenga en cuenta solo los bordes*/
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Estas propiedades afectan a todo el body*/
 body {
   font-family: 'Segoe UI';
   background-color: #fdf6f0; 
   color: #333;
   padding-top: 40px; 
 }
-
+/* El estilo de la estructura de la barra de navegación */
 .navbar {
   list-style: none;
   margin: 0;
@@ -24,6 +26,7 @@ body {
   z-index: 1000;
 }
 
+/* Afectan a los links dentro de la barra de navegación */
 .navbar a {
   display: block;
   padding: 15px 20px;
@@ -32,19 +35,19 @@ body {
   font-weight: 500;
   transition: color 0.3s;
 }
-
+/* Cuando pones el ratón cambia de color el texto */
 .navbar a:hover {
   color: #9f1344;
 }
-
+/* Icono del carrito */
 #carrito {
   margin-left: auto;
 }
-
+/* Tamaño del carrito */
 #carrito a {
   font-size: 1.5em;
 }
-
+/* Posicionar el nombre de la tienda en el centro de la barra de navegación */
 .logo {
   font-family: 'Segoe UI';
   font-weight: bold;
@@ -53,6 +56,7 @@ body {
   left: 50%;
 }
 
+/* Posición del primer bloque de las imagenes */
 .imagenes{
   background-color: white;
   display: flex;
@@ -67,7 +71,7 @@ img {
   width: 30%;
   border-radius: 10px;
 }
-
+/* Se coloca el titulo y la descripcion en un bloque */
 .descripcion {
   background-color: #e98181;
   display: flex;
@@ -97,7 +101,7 @@ img {
   text-align: center;
   margin: 70px;
 }
-
+/*Es el bloque principal que engloba todas las tarjetas de los productos */
 .container {
   display: flex;
   flex-wrap: wrap;             
@@ -107,7 +111,7 @@ img {
   margin: 60px auto;
   padding: 20px;
 }
-
+/* Cada tarjeta de producto */
 .producto {
   background-color: #fff;
   border-radius: 12px;
@@ -135,7 +139,7 @@ img {
 .producto b {
   color: #e98181;
 }
-
+/* Caracteristicas de los botones de las tarjetas de los distintos productos */
 .producto button {
   background-color: #e98181;
   color: white;
@@ -145,7 +149,7 @@ img {
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
-
+/* Cambia de color el fondo del boton al pasar el ratón */
 .producto button:hover {
   background-color: #9f1344;
 }
@@ -154,7 +158,7 @@ img {
   max-width: 400px;
   height: auto;
 }
-
+/* Alinear los radio-buttons con el label */
 .opciones {
   text-align: left;
   display: flex;
@@ -166,7 +170,7 @@ img {
   margin-bottom: 5px;
   color: #333;
 }
-
+/* Bloque en index que enlaza a contacto */
 .contacto {
   max-width: 350px;       
   margin: 20px auto;      
@@ -199,7 +203,7 @@ p a:hover {
   color: #9f1344;
 }
 
-
+/* Estructura del bloque de formulario */
 form {
   max-width: 600px;           
   margin: 40px auto;          
@@ -225,7 +229,7 @@ form p {
   color: #555;
   margin-bottom: 10px;
 }
-
+/* Estilo del label */
 form label {
   display: block;
   margin-bottom: 8px;
@@ -233,7 +237,7 @@ form label {
   color: #333;
   font-size: 1em;
 }
-
+/* Esto afecta a la estructura del input del textarea */
 form input[type="text"],
 form select,
 form textarea {
@@ -244,7 +248,7 @@ form textarea {
   border-radius: 8px;
   font-size: 1em;
 }
-
+/* Afecta al input del submit */
 form input[type="submit"] {
   display: block;
   width: 100%;
@@ -256,7 +260,7 @@ form input[type="submit"] {
   border: none;
   border-radius: 8px;
 }
-
+/* Cuando pasas por encima con el ratón cambia el color del fondo del botón submit */
 form input[type="submit"]:hover {
   background-color: #f71f6a;
 }
